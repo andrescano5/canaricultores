@@ -94,4 +94,20 @@ main{
     width: 100%;
     padding: auto;
     margin: auto;
+    display: flex;
+}
+section{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 20px;
+}
+
+aside{
+    display: flex;
+    flex-flow: column;
+    width:30% ;
+    padding: 20px;
+    margin: 20px;
 }
