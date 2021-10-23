@@ -1,5 +1,6 @@
 :root{
     --amarillosuave: rgb(248, 248, 130);
+    --amarilloscuro: rgb(243, 232, 79);
     --blanco: rgb(244, 247, 213);
     --grisoscuro:rgb(37, 37, 34);
 }
@@ -14,26 +15,22 @@
 body{
     background-color: rgb(82, 81, 81);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 1008px;
-    border:3px solid black;
+    width: 100%;
     padding: auto;
     margin: auto;
 }
 header{
     background-color: var(--amarillosuave);
     width: 100%;
-    display: block;
-    padding: auto;
-    padding-bottom: 0px;
+    display: block;  
     margin: auto;
-    
     font-family: Arial, Helvetica, sans-serif;
-    z-index: 0;
 }
 img {
     margin: auto;
     display: block;
-    width: 250px;
+    width: 25%;
+    padding-top: 2%;
 }
 
 h1{
@@ -43,21 +40,20 @@ h1{
 .contenedor-menu{
     width: 100%;
     background-color: var(--grisoscuro);
-    padding: auto;
-    margin: auto;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
+    position: fixed;
 }
 
 .contenedor-menu a{
     text-decoration: none;
     color: var(--amarillosuave);
     font-weight: bold;
-    padding: 10px;
-    display: block;
+    font-size: 1em;
     text-align: center;
+    padding: 10px;
+    display: inline-block;
     width: 100%;
     line-height: 100%;
+
 }
 
 .contenedor-menu a:hover{
@@ -70,7 +66,7 @@ h1{
 .menu{
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .submenu {
@@ -96,12 +92,17 @@ main{
     margin: auto;
     display: flex;
 }
+
 section{
     width: 70%;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     gap: 20px;
+}
+
+article{
+    padding: 20px;
 }
 
 aside{
