@@ -112,3 +112,23 @@ aside{
     padding: 20px;
     margin: 20px;
 }
+
+.color-canary{
+    width: 100%;
+    display: block;
+    padding: 6.5%;
+}
+
+.color-canary p{
+    max-width: 75%;
+}
+
+.lipocromo, .melanicos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.lipocromo img, .melanicos img{
+    width:100%;
+    border-radius: 100%;
+}
