@@ -38,6 +38,12 @@ h1{
     text-align: center;
 }
 
+/* configuracion del menu */
+
+.menu-btn{
+    display: none;
+}
+
 .contenedor-menu{
     width: 100%;
     background-color: var(--grisoscuro);
@@ -152,3 +158,45 @@ aside{
 .yellow{
     display: block;
 }
+
+@media screen and (max-width:800px ) {
+    header .contenedor-menu {
+        width: 80%;
+        height: 100%;
+        margin: 0;
+        position: fixed;
+        left: -100%;
+    }
+    header .contenedor-menu nav ul li{
+        display: block;
+        border-bottom: 1px solid var(--amarillosuave);
+    }
+    .contenedor-menu{
+        position: fixed;
+    }
+    .menu{
+        display: block;
+    }
+
+    .menu-btn{
+        display: block;
+        width: 100%;
+        background-color: var(--grisoscuro);
+    }
+    .menu-btn .btn-menu{
+        display: block;
+        padding: 20px;
+        background-color: var(rgb(170, 164, 164));
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 25px;
+        box-sizing: border-box;
+        color: var(--amarillosuave);
+    }
+    .menu-btn {
+        display: flex;
+        justify-content: space-between;
+        font-size: 40px;
+    }
+}
+  
