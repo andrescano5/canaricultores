@@ -158,6 +158,9 @@ aside{
     box-shadow: 3px 3px 5px 0px rgba(71, 53, 53, 0.2);
 }
 
+.article figcaption{
+    font-size: smaller;
+}
 
 /* Configuración de página de canarios clasificados por color*/
 .color-canary, .yellow{
@@ -270,6 +273,9 @@ aside{
    }
   .aside{
       align-self: flex-start;
+  }
+  aside, article{
+      font-size: 1rem;
   }
 }
   
