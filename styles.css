@@ -21,7 +21,8 @@ body{
     margin: auto;
 }
 header{
-    background: linear-gradient(90deg,#ffec00 0%, #a29f8e 80%);
+    background: url(images/banner.jpg);
+    background-size: cover;
     width: 100%;
     display: block;  
     margin: auto;
@@ -94,7 +95,9 @@ h1{
 
 /* Configuración de página de inicio*/
 main{
-    background-color: var(--blanco);
+    background-color: #000000;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #000000 4px ), repeating-linear-gradient( #f7ca4555, #f7ca45 );
     width: 100%;
     padding: auto;
     margin: auto;
@@ -115,7 +118,7 @@ article{
 }
 
 .article{
-    background-color: rgba(252, 250, 250, 0.897);
+    background-color: white;
     border-radius: 20px;
     margin: 5%;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -146,7 +149,7 @@ aside{
 }
 
 .aside{
-    background-color: rgba(252, 250, 250, 0.897);
+    background-color: white;
     border-radius: 20px;
     margin: 5%;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -170,8 +173,9 @@ aside{
 }
 .text{
     width: 98%;
-    background-color: rgba(245, 245, 245, 0.459);
+    background-color: white;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    padding: 3.5%;
 }
 
 .color-canary ul, .color-canary ol, .yellow ul, .yellow ol{
