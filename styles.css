@@ -31,11 +31,14 @@ header{
 img {
     margin: auto;
     display: block;
-    width: 25%;
+    width: 15%;
     padding-top: 2%;
 }
 
 h1{
+    padding-top: 2%;
+    padding-bottom: 10%;
+    font-size: xx-large;
     text-align: center;
     text-shadow: 4px 4px 2px rgba(248,242,242,0.6);
 }
@@ -94,7 +97,7 @@ h1{
 
 /* Configuración de página de inicio*/
 main{
-    background-color: #070707;
+    background-color: var(--grisoscuro);
 background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23edf00e' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     background-repeat: repeat;
     width: 100%;
@@ -157,6 +160,9 @@ article{
     background-color: white;
     box-shadow: 10px 10px 5px 0px rgba(252, 249, 249, 0.75);
     padding: 3.5%;
+    margin-top: -5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .color-canary ul, .color-canary ol, .yellow ul, .yellow ol{
@@ -167,26 +173,26 @@ article{
     max-width: 75%;
 }
 
-.lipocromo, .melanicos, .derivados{
+.lipocromo, .melanicos, .derivados, .timbrado{
     display: flex;
     justify-content: space-around;
 }
 
-.lipocromo img, .melanicos img, .derivados img{
+.lipocromo img, .melanicos img, .derivados img, .timbrado img{
     width: 100%;
     border-radius: 100%;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     padding: 3.5%;    
 }
 
-.lipocromo a, .melanicos a, .derivados a{
+.lipocromo a, .melanicos a, .derivados a, .timbrado a{
     color: var(--grisoscuro);
     text-decoration: none;
     font-weight: bold;
     align-self: center;
 }
 
-.lipocromo a:hover, .melanicos a:hover, .derivados a:hover{
+.lipocromo a:hover, .melanicos a:hover, .derivados a:hover, .timbrado a:hover{
     display: inline-block;
     text-decoration: underline;
 }
