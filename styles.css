@@ -95,9 +95,9 @@ h1{
 
 /* Configuración de página de inicio*/
 main{
-    background-color: #000000;
-    opacity: 1;
-    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #000000 4px ), repeating-linear-gradient( #f7ca4555, #f7ca45 );
+    background-color: #070707;
+background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23edf00e' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: repeat;
     width: 100%;
     padding: auto;
     margin: auto;
@@ -121,7 +121,7 @@ article{
     background-color: white;
     border-radius: 20px;
     margin: 5%;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(248, 247, 247, 0.75);
 }.article figcaption{
     width: 90%;
 }
@@ -152,7 +152,7 @@ aside{
     background-color: white;
     border-radius: 20px;
     margin: 5%;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(253, 253, 253, 0.75);
     width: 30%;
 }
 
@@ -172,9 +172,9 @@ aside{
     padding: 6.5%;
 }
 .text{
-    width: 98%;
+    width: 99.5%;
     background-color: white;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(252, 249, 249, 0.75);
     padding: 3.5%;
 }
 
