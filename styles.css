@@ -52,7 +52,7 @@ h1{
     position: fixed;
 }
 
-.contenedor-menu a{
+.menulink{
     text-decoration: none;
     color: var(--amarillosuave);
     font-weight: bold;
