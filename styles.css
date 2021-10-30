@@ -111,6 +111,7 @@ section{
 
 article{
     padding: 20px;
+    
 }
 
 .article{
@@ -118,7 +119,12 @@ article{
     border-radius: 20px;
     margin: 5%;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}.article figcaption{
+    width: 90%;
 }
+
+
+
 
 .img-article{
     width: 150%;
@@ -132,11 +138,11 @@ article{
     margin: 0;
 }
 aside{
-    display: flex;
-    flex-flow: column;
+    
     width:85% ;
     padding: 5%;
     margin: 10%;
+
 }
 
 .aside{
@@ -258,5 +264,10 @@ aside{
     .video{
         width: 80%;
     }
+   section{
+       display: flex;
+       flex-direction: column;
+   }
+
 }
   
